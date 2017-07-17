@@ -1,9 +1,9 @@
 # History-aware-proactive-data-bundling-systems-for-intermittent-networks
  
 Components :
-		   1. Node js server + Python Script
-		   2. Node js client for http/ws performance testing
-		   3. A simple android app
+1. Node js server + Python Script
+2. Node js client for http/ws performance testing
+3. A simple android app
 
 This project is largely inspired from a IEEE SECON 2006 paper with the similar title that tries to address the issue of handling poor connectivity in mobile devices. The intermittent connectivity, which results from this lack of end-to-end connection, is a dominant problem that leads to user frustration. In this project we have implemented a user browsing history aware system that is able to fulfill user request even in the presence of a poor network
 
