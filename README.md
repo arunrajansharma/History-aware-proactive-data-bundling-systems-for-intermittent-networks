@@ -1,0 +1,2 @@
+# History-aware-proactive-data-bundling-systems-for-intermittent-networks
+This project is largely inspired from a IEEE SECON 2006 paper with the similar title that tries to address the issue of handling poor connectivity in mobile devices. The intermittent connectivity, which results from this lack of end-to-end connection, is a dominant problem that leads to user frustration. In this project we have implemented a user browsing history aware system that is able to fulfill user request even in the presence of a poor network
