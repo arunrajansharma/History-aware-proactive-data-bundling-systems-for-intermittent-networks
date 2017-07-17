@@ -14,6 +14,7 @@ Since the android app was initially proving difficult to build owing to our lack
 First we wanted to find out if using Web Sockets was the right thing to do. So, in our makeshift node.js client we add code to use either HTTP or Web Sockets. We also made a change at the server so that it can accept HTTP requests. The main thing we wanted to evaluate was how fast the server is able to push data to the client when a client reconnects. We need not worry too much about when the client connects for the first time and sends its history. This will happen only once, and the user will obviously need to do it when he has a decent connection. So for our test, we assume that the client has already sent its history, has then lost its connection and is now reconnecting.
 We start counting the time just before the client sends a connect request and stop counting when the client receives all the data. When using WebSockets, the data is pushed directly by the server. When using HTTP, the client sends a GET request to the server. The server then sends the data in response. We varied the size of the zip file that the server sends to the client.
 
+![Alt text](graph.PNG?raw=true "Optional Title")
 
 
 Team:
